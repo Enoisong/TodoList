@@ -5,7 +5,7 @@ import Todos from './todos.js';
 const todosList = new Todos();
 render(todosList);
 
-//add todo
+// add todo
 const addTodoBtn = document.querySelector('.add-btn');
 addTodoBtn.addEventListener('click', () => {
   const id = `id${Math.random().toString(16).slice(2)}`;
@@ -20,5 +20,3 @@ addTodoBtn.addEventListener('click', () => {
     render(todosList);
   }
 });
-
- 
