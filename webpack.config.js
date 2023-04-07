@@ -1,35 +1,33 @@
 const path = require ('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: {
+      index: './src/index.js',
+  },
+
+  devtool: 'inline-source-map',
+  devServer: {
+    static: './dist',
+  },
+  
+  plugins: [
+    new HtmlWebpackPlugin({
+        template: './src/index.html',
+    }),
+  ],
     output: {
-        filename: 'awesome.js',
+        filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist'),
     },
-
-module: {
+    mode: 'none',
+    module: {
     rules: [
         {
-            test:/\.scss$/,
-            use: [
-                'style-loader',
-                'css-loader',
-                'sass-loader',
-
-            ]
-        }
-
+        test:/\.css$/i,
+        use: ['style-loader', 'css-loader'],
+        },
     ],
 },
 
 };
-
-Plugins: [
-    new bundleAnalyzerPlugin()
-],
-
-devServer: {
-    contentBase: path.join(__dirname, 'public'),
-    port: 9000
-}
-
