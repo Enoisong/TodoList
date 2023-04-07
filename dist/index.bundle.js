@@ -23,15 +23,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(8);
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
+    
 
 var options = {};
 
@@ -44,9 +36,6 @@ options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPAC
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
 var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
-
-
-
 
        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
@@ -163,7 +152,6 @@ module.exports = function (list, options) {
 /***/ }),
 /* 3 */
 /***/ ((module) => {
-
 
 
 /* istanbul ignore next  */
@@ -388,10 +376,7 @@ module.exports = function (item) {
 
 
 
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
+
 module.exports = function (cssWithMappingToString) {
   var list = []; // return the list of modules as css string
 
@@ -507,93 +492,6 @@ const list = document.querySelector('.task-content');
 const clear = document.querySelector('.clear');
 
 let LIST = [];
-
-// this function adds items to the todo list
-const addToDo = (toDo, id, done, trash) => {
-  if (trash) {
-    return;
-  }
-
-  const item = `
-  <div class="content third task">
-    <ul class="inner">
-      <li>
-      <input type="checkbox" class="checkbox"
-      ${done ? 'checked' : ''} 
-      job="complete" id="${id}"/>
-      </li>
-      <li>
-        <input class="input" type="text" value='${toDo}' id="${id}" readonly />
-        
-      </li>
-    </ul>
-    <ul id="${id}">
-      <li> 
-      <button><i class="fa fa-trash-o de" job="delete" id="${id}"></i></button>
-      </li>
-      </ul>
-  </div>
-  <hr />`;
-
-  const position = 'beforeend';
-
-  list.insertAdjacentHTML(position, item);
-};
-
-// remove todo
-const removeToDo = (element) => {
-  LIST = LIST.filter((t) => t.index !== Number(element.id)).map((t, i) => {
-    t.index = i;
-    return t;
-  });
-  localStorage.setItem('TODO', JSON.stringify(LIST));
-};
-
-// this function loads the todo list items
-const loadList = (array) => {
-  if (array) {
-    LIST = array;
-  }
-
-  list.innerHTML = '';
-  array.forEach((item) => {
-    addToDo(item.name, item.index, item.done, item.trash);
-  });
-
-  document.querySelectorAll('li .input').forEach((b) => {
-    b.addEventListener('click', () => {
-      b.readOnly = false;
-      b.focus();
-    });
-    b.addEventListener('change', () => {
-      b.readOnly = true;
-      const task = LIST.find((t) => t.index === Number(b.id));
-      task.name = b.value.trim();
-      localStorage.setItem('TODO', JSON.stringify(LIST));
-    });
-  });
-
-  document.querySelectorAll('li .checkbox').forEach((b) => {
-    b.addEventListener('change', () => {
-      (0,_interact_js__WEBPACK_IMPORTED_MODULE_0__.completeToDo)(LIST, b);
-    });
-  });
-  document.querySelectorAll('li button').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      removeToDo(btn.parentNode.parentNode);
-      loadList(LIST);
-    });
-  });
-};
-
-// this event clears the completed todo items
-clear.addEventListener('click', () => {
-  const arr = (0,_interact_js__WEBPACK_IMPORTED_MODULE_0__.clearAll)(LIST);
-  loadList(arr);
-});
-
-
-
 
 /***/ }),
 /* 12 */
