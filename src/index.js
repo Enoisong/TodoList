@@ -27,4 +27,3 @@ clearBtn.addEventListener('click', () => {
   todosList.clearCompletedTodos();
   render(todosList);
 });
-
