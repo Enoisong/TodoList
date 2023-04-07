@@ -15,7 +15,7 @@
 
 .title {
   padding: 3%;
-  color:rgb(216, 166, 29);
+  color: rgb(216, 166, 29);
 }
 
 form {
@@ -79,7 +79,7 @@ button {
 }
 
 .clear a:hover {
-  color:rgb(216, 166, 29);
+  color: rgb(216, 166, 29);
   text-decoration: underline;
   font-weight: bold;
 }
@@ -94,4 +94,3 @@ button {
     max-width: 70%;
   }
 }
-

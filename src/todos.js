@@ -1,8 +1,8 @@
- export default class Todos {
+export default class Todos {
   constructor() {
     this.list = localStorage.getItem('todos')
-    ? JSON.parse(localStorage.getItem('todos'))
-    : [];
+      ? JSON.parse(localStorage.getItem('todos'))
+      : [];
   }
 
   setLocalStorage() {
@@ -25,7 +25,7 @@
   editTodo(todoId, todoDescription) {
     this.list = this.list.map((todo) => {
       if (todo.id === todoId) {
-        return {...todo, description: todoDescription };
+        return { ...todo, description: todoDescription };
       }
       return todo;
     });
@@ -45,4 +45,4 @@
     });
     this.setLocalStorage();
   }
- }
+}
