@@ -1,4 +1,4 @@
-import { clearAll, completeToDo } from './interact.js';
+import { clearAll, completeToDo } from './todo.js';
 
 const list = document.querySelector('.task-content');
 const clear = document.querySelector('.clear');
@@ -61,7 +61,7 @@ const updateToDo = () => {
     });
 };
 
-// loading the todo list items
+// loading todo list items
 const loadList = (array) => {
     if (array) {
         LIST = array;
