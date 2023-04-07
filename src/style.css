@@ -1,74 +1,97 @@
-body {
-  background-color: gainsboro;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.head-main {
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
-  color: rgba(161, 12, 12, 0.774);
+.hello {
+  color: rgb(112, 189, 122);
 }
 
 .container {
-  background-color: #fff;
-  width: 80%;
-  margin: 0 auto 0 auto;
-  box-shadow: 5px 5px #000;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+  max-width: 40%;
+  margin: 50px auto;
 }
 
-.content {
-  padding: 10px;
+.title {
+  padding: 3%;
+  color:rgb(216, 166, 29);
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0;
+  position: relative;
+  border-top: 0.6px solid rgb(216, 216, 216);
+  border-right: none;
+  border-bottom: 0.6px solid rgb(216, 216, 216);
+  border-left: none;
+}
+
+.todo-edit {
+  border: none;
+}
+
+form input[type='text'] {
+  border: none;
+  font-style: italic;
+  width: 85%;
+  padding: 3%;
+}
+
+form .add-btn {
+  position: relative;
+  right: 3.2%;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+.todo-item {
+  padding: 3%;
+  border-bottom: 0.6px solid rgb(216, 216, 216);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.fifth {
-  text-align: center;
-  padding: 20px;
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
 .clear {
+  background-color: rgba(240, 240, 240, 0.493);
   text-align: center;
-  font-size: 25px;
+  padding: 3%;
 }
 
-h2 {
-  margin: 0;
+.clear a {
+  cursor: pointer;
+  color: rgba(255, 166, 0, 0.507);
 }
 
-.input-field {
-  border: none;
-  font-size: 12px;
-  width: 70px;
+.clear a:hover {
+  color:rgb(216, 166, 29);
+  text-decoration: underline;
+  font-weight: bold;
 }
 
-.input {
-  border: none;
-  font-size: 17px;
-  width: 140px;
+.checked {
+  text-decoration: line-through;
+  color: rgba(129, 129, 129, 0.548);
 }
 
-.input:focus {
-  outline: none;
+@media screen and (max-width: 400px) {
+  .container {
+    max-width: 70%;
+  }
 }
 
-button {
-  border: none;
-  background-color: #fff;
-}
-
-p {
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.inner {
-  display: flex;
-  padding-left: 0;
-  gap: 10px;
-}

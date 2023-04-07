@@ -1,37 +1,31 @@
-/* eslint-disable */
+
 const path = require ('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: {
-      index: './src/index.js',
-  },
-
-  devtool: 'inline-source-map',
-  devServer: {
-    static: './dist',
-  },
-  
-  plugins: [
-    new HtmlWebpackPlugin({
+  mode: 'development',
+    entry: './src/index.js',
+    devServer: {
+      static: './dist',
+    },
+    plugins: [
+      new HtmlWebpackPlugin({
         template: './src/index.html',
-    }),
-  ],
+      }),
+    ],
     output: {
-        filename: '[name].bundle.js',
-        path: path.resolve(__dirname, 'dist'),
+      filename: '[name].bundle.js',
+      path: path.resolve(__dirname, 'dist'),
+      clean: true,
     },
-    mode: 'none',
     module: {
-    rules: [
+      rules: [
         {
-        test:/\.css$/i,
-        exclude: /(node_modules|bower_components)/,
-        use: ['style-loader', 'css-loader'],
-        },  
-      ],      
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader'],
+        },
+      ],
+    },     
+  };
 
-    },
-    
-};
-
+  

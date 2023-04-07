@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack serve --open", 
     "build": "webpack",
-    "dev": "webpack serve"
+    "mode": "development"
+     
   },
   "keywords": [],
   "author": "",
@@ -21,6 +24,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",
     "hint": "^2.0.0",
+    "html-webpack-plugin": "^5.5.0",
     "sass-loader": "^13.2.2",
     "style-loader": "^3.3.2",
     "stylelint": "^13.13.1",
