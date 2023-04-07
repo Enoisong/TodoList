@@ -20,3 +20,11 @@ addTodoBtn.addEventListener('click', () => {
     render(todosList);
   }
 });
+
+// clear all completed todos
+const clearBtn = document.querySelector('.clear-btn');
+clearBtn.addEventListener('click', () => {
+  todosList.clearCompletedTodos();
+  render(todosList);
+});
+
