@@ -104,7 +104,7 @@ It will be deployed after merge
 ## 🔭 Future Features <a name="future-features"></a>
 -   [] **To Add more dynamics to the project; feature like animation 
     and transition
-    -[]** To integrate backend.
+-    []** To integrate backend.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
