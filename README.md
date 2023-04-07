@@ -104,7 +104,7 @@ It will be deployed after merge
 ## 🔭 Future Features <a name="future-features"></a>
 -   [] **To Add more dynamics to the project; feature like animation 
     and transition
--  []** To integrate backend.
+    -[]** To integrate backend.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +131,7 @@ If you like this project, give me a star
 -	Thanks to the Microverse team for the great curriculum.
 -	Thanks to the Code Reviewer(s) for the insightly feedbacks.
 -	A great thanks to my coding partner(s), morning session team, 
-    and  standup team for their contributions.
+  and  standup team for their contributions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
