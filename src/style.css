@@ -1,74 +1,74 @@
 body {
-    background-color: gainsboro;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gainsboro;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .head-main {
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-    color: rgba(161, 12, 12, 0.774);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  color: rgba(161, 12, 12, 0.774);
 }
 
 .container {
-    background-color: #fff;
-    width: 80%;
-    margin: 0 auto 0 auto;
-    box-shadow: 5px 5px #000;
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  box-shadow: 5px 5px #000;
 }
 
 .content {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .fifth {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 .clear {
-    text-align: center;
-    font-size: 25px;
+  text-align: center;
+  font-size: 25px;
 }
 
 h2 {
-    margin: 0;
+  margin: 0;
 }
 
 .input-field {
-    border: none;
-    font-size: 12px;
-    width: 70px;
-}
-
-.input:focus {
-    outline: none;
-}
-
-button {
-    border: none;
-    background-color: #fff;
-}
-
-p {
-    margin: 0;
+  border: none;
+  font-size: 12px;
+  width: 70px;
 }
 
 .input {
-    border: none;
-    font-size: 17px;
-    width: 140px;
+  border: none;
+  font-size: 17px;
+  width: 140px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+}
+
+p {
+  margin: 0;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .inner {
-    display: flex;
-    padding-left: 0;
-    gap: 10px;
+  display: flex;
+  padding-left: 0;
+  gap: 10px;
 }
