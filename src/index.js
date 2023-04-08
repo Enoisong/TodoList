@@ -2,7 +2,7 @@ import './style.css';
 import render from './todosRender.js';
 import Todos from './todos.js';
 
-//this function updates todo
+// this function updates todo
 const todosList = new Todos();
 render(todosList);
 
