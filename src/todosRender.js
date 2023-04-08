@@ -1,5 +1,4 @@
- 
- const render = (todosList) => {
+const render = (todosList) => {
   const sortedTodos = todosList.list.sort((a, b) => a.index - b.index);
   const todosContainer = document.querySelector('.todos');
   let todosHtml = '';
