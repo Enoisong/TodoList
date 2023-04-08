@@ -50,7 +50,7 @@
 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
- 
+ https://enoisong.github.io/TodoList/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/TodoList.git
@@ -93,9 +93,8 @@ It will be deployed after merge
 
 <!-- AUTHORS -->
 ## 👥 Author <a name="author"></a> 
-- Enobong Isong
+- Enobong Isong 
  
-👤 **Author**
 👤 **Author**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
