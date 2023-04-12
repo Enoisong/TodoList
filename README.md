@@ -31,12 +31,14 @@
 - CSS
 - JavaScript (ES6)
 - Webpack
+- 
 
 ### Tech Stack <a name="tech-stack"></a>
 - HTML
 - CSS
 - javascript
 - Webpack
+- 
 - Version Control (GitHub)
  
 <!-- Features -->
@@ -50,7 +52,7 @@
 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
- https://enoisong.github.io/TodoList/
+ 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/TodoList.git
@@ -93,8 +95,9 @@ It will be deployed after merge
 
 <!-- AUTHORS -->
 ## 👥 Author <a name="author"></a> 
-- Enobong Isong 
+- Enobong Isong
  
+👤 **Author**
 👤 **Author**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
@@ -120,7 +123,7 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, give me a star
+If you like this project, give me a ⭐️ star!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
