@@ -96,7 +96,6 @@ It will be deployed after merge
 - Enobong Isong
  
 👤 **Author**
-👤 **Author**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
