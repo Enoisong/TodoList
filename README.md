@@ -31,14 +31,14 @@
 - CSS
 - JavaScript (ES6)
 - Webpack
-- 
+- jest
 
 ### Tech Stack <a name="tech-stack"></a>
 - HTML
 - CSS
 - javascript
 - Webpack
-- 
+- jest
 - Version Control (GitHub)
  
 <!-- Features -->
