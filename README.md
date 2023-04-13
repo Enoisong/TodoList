@@ -69,7 +69,6 @@ https://github.com/Enoisong/TodoList.git
 
 ### Install
 Install this project with:
- 
 - VSCode
 - Git.
 - Github.
