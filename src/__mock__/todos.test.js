@@ -30,6 +30,7 @@ describe('add and remove', () => {
       completed: false,
       index: 1,
     };
+    hello
     const newTodo2 = {
       id: 'id12sdad3',
       description: 'task2',
