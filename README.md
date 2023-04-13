@@ -75,7 +75,6 @@ Install this project with:
 - Github.
 
 ### Usage
-
 ### To run the project, execute the following command:  
 - Git clone <>
 - Install the Live server extension of the VScode and run Go Live
