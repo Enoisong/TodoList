@@ -60,42 +60,41 @@ describe('add and remove', () => {
 
 describe('Edit test', () => {
   test('Editing', () => {
-      const todoList = new Todos();
-      const newTodo3 = {
-          id: 'gfgdgrg',
-          description: 'task33',
-          completed: false,
-          index: 3,
-      };
-      todoList.addTodo(newTodo3);
-      todoList.editTodo(newTodo3.id, 'asd');
-      expect(todoList.list[2].description).toBe('asd');
-      expect(todoList.list).toHaveLength(3);
+    const todoList = new Todos();
+    const newTodo3 = {
+      id: 'gfgdgrg',
+      description: 'task33',
+      completed: false,
+      index: 3,
+    };
+    todoList.addTodo(newTodo3);
+    todoList.editTodo(newTodo3.id, 'asd');
+    expect(todoList.list[2].description).toBe('asd');
+    expect(todoList.list).toHaveLength(3);
   });
 });
 
 describe('complete test', () => {
   test('updating an items completed status', () => {
-      const todoList = new Todos();
-      const newTodo4 = {
-          id: 'dasasds5sa',
-          description: 'task5',
-          completed: false,
-          index: 4,
-      };
-      todoList.addTodo(newTodo4);
-      todoList.completeTodo(newTodo4.id, true);
-      expect(todoList.list[3].completed).toBeTruthy();             
-      expect(todoList.list).toHaveLength(4);            
+    const todoList = new Todos();
+    const newTodo4 = {
+      id: 'dasasds5sa',
+      description: 'task5',
+      completed: false,
+      index: 4,
+    };
+    todoList.addTodo(newTodo4);
+    todoList.completeTodo(newTodo4.id, true);
+    expect(todoList.list[3].completed).toBeTruthy();
+    expect(todoList.list).toHaveLength(4);
   });
 });
 
 describe('clear all completed', () => {
   test('clear items completed', () => {
-      const todoList = new Todos();
-      todoList.clearCompletedTodos();
-      expect(todoList.list).toHaveLength(3);
-      expect(todoList.list[1].completed).toBeFalsy();
+    const todoList = new Todos();
+    todoList.clearCompletedTodos();
+    expect(todoList.list).toHaveLength(3);
+    expect(todoList.list[1].completed).toBeFalsy();
   });
 });
-
