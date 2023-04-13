@@ -21,7 +21,7 @@ document.body.innerHTML = `
        </div>    
         `;
 
-describe('add and remove', () => {  
+describe('add and remove', () => {
   test('Add task', () => {
     const todoList = new Todos();
     const newTodo = {
