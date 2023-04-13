@@ -31,12 +31,14 @@
 - CSS
 - JavaScript (ES6)
 - Webpack
+- jest
 
 ### Tech Stack <a name="tech-stack"></a>
 - HTML
 - CSS
 - javascript
 - Webpack
+- jest
 - Version Control (GitHub)
  
 <!-- Features -->
@@ -50,7 +52,7 @@
 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
- https://enoisong.github.io/TodoList/
+ 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/TodoList.git
@@ -67,13 +69,11 @@ https://github.com/Enoisong/TodoList.git
 
 ### Install
 Install this project with:
- 
 - VSCode
 - Git.
 - Github.
 
 ### Usage
-
 ### To run the project, execute the following command:  
 - Git clone <>
 - Install the Live server extension of the VScode and run Go Live
@@ -93,8 +93,9 @@ It will be deployed after merge
 
 <!-- AUTHORS -->
 ## 👥 Author <a name="author"></a> 
-- Enobong Isong 
+- Enobong Isong
  
+👤 **Author**
 👤 **Author**
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
@@ -120,7 +121,7 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, give me a star
+If you like this project, give me a ⭐️ star!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
