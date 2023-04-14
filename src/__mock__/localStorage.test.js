@@ -2,24 +2,24 @@
  * @jest-environment jsdom
  */
 import Todos from '../todos.js';
-// mock innerHTML
+
 document.body.innerHTML = `
-     <div class="container">
-     <h1 class="title">Today's Todo</h1>
-     <form>
-       <input class="input-todo" type="text" placeholder="Add to your List..." autofocus />
-       <button class="add-btn">
-         <i class="fas fa-location-arrow"></i>
-       </button>
-       </form>
-     <div class ="todos">
-         <!-- Add Todos Automatically -->
-     </div>
-     <div class="clear">
-          <a class="clear-btn">Clear All</a>
-       </div>
-       </div>    
-        `;
+      <div class="container">
+      <h1 class="title">Today's Todo</h1>
+      <form>
+        <input class="input-todo" type="text" placeholder="Add to your List..." autofocus />
+        <button class="add-btn">
+          <i class="fas fa-location-arrow"></i>
+        </button>
+        </form>
+      <div class ="todos">
+          <!-- Add Todos Automatically -->
+      </div>
+      <div class="clear">
+           <a class="clear-btn">Clear All</a>
+        </div>
+        </div>    
+         `;
 
 describe('add and remove', () => {
   // mock localStorage
