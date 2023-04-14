@@ -21,8 +21,8 @@ document.body.innerHTML = `
        </div>    
         `;
 
-  describe('add and remove', () => {   
-    //mock localStorage 
+describe('add and remove', () => {
+  // mock localStorage
   window.localStorage = Storage.prototype;
   test('Add task', () => {
     const todoList = new Todos();

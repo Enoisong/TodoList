@@ -4,8 +4,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack) 
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+    - [Key Features](#key-features)  
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -49,10 +48,6 @@
 - Webpack
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-## 🚀 Live Demo <a name="live-demo"></a>
- 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/TodoList.git
