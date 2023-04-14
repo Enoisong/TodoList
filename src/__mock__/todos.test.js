@@ -21,7 +21,6 @@ document.body.innerHTML = `
        </div>    
         `;
 
-
   describe('add and remove', () => {    
   window.localStorage = Storage.prototype;
   test('Add task', () => {
