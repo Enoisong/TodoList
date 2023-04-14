@@ -21,7 +21,9 @@ document.body.innerHTML = `
        </div>    
         `;
 
-describe('add and remove', () => {
+
+  describe('add and remove', () => {    
+  window.localStorage = Storage.prototype;
   test('Add task', () => {
     const todoList = new Todos();
     const newTodo = {
