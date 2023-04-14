@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import Todos from '../todos.js';
-
+//mock innerHTML 
 document.body.innerHTML = `
      <div class="container">
      <h1 class="title">Today's Todo</h1>
